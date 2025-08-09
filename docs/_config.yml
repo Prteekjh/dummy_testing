@@ -1,0 +1,33 @@
+title: "XYZ Research"
+description: "A project page for sharing methods, results, and references."
+url: "https://YOUR-USERNAME.github.io"
+baseurl: "/YOUR-REPO" # for project sites; for personal sites set this to "" and change url to yourusername.github.io
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air" # other options: default, dark, dirt, sunrise, etc.
+
+# Build
+markdown: kramdown
+permalink: /:categories/:title/
+paginate: 5
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Author (optional)
+author:
+  name: "Your Name"
+  avatar: "/assets/images/fig2.png"
+  bio: "Researcher in XYZ."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/YOUR-USERNAME"
+    - label: "Paper"
+      icon: "fas fa-file-pdf"
+      url: "#"
+
+# Navigation (uses _data/navigation.yml)
+# Collections/posts optional — you can ignore for now.

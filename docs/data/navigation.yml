@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Methods"
+    url: /methods/
+  - title: "Results"
+    url: /results/
+  - title: "References"
+    url: /references/
